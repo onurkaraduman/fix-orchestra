@@ -11,7 +11,7 @@ public class OrchestraFileGeneratorTest {
 
     @Test
     public void generate() throws ParserConfigurationException, JAXBException, SAXException, IOException {
-        String[] args = new String[]{Thread.currentThread().getContextClassLoader().getResource("FIX41.xml").getFile(), "target/repository"};
+        String[] args = new String[]{Thread.currentThread().getContextClassLoader().getResource("FIX50SP1.xml").getFile(), "target/repository"};
         OrchestraFileGenerator.main(args);
     }
 }
